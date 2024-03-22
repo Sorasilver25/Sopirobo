@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset ="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf_viewer.min.css" integrity="sha512-v7RQDI7qsfFNaXRzzylpsVV7ncQBdyozLze5YNgox/0z4Mc3Ellt2dBd0CbmufeD7IIh5TCJQ8ORAF/KvzVITg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.js" integrity="sha512-tKCrUPwNUokFGmIomk8uhfn0OzVlhtZDeoLOfNpb/RwYUXUqiqH1fBwQF0WtjEpiI7YgOKq6fW0ByEMt5Z/fiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+		<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/fond-ecran.js"></script>
+		<script type="text/javascript" src="./js/export.js"></script>
+	</head>
+	
+	<body>
+	<header>
+	<div>
+</div>
+	</header>
+	<nav>
+		<ul>
+			<li> <a href="index.html"> Accueil </a> </li>
+			<li> <a class="active" href="cv.html">CV </a> </li>
+			<li> <a href="projets.html" class="desactive" style="pointer-events:none; opacity:0.3;">Mes Projets </a> </li>
+			<li> <a href="Informations.html"> Informations</a> </li>
+		</ul>
+	</nav>
+    <!-- <li> <a href="../sopirobo-main/cv.pdf"> cv</a> </li> -->
+	<div class="BtnActions">
+		<div class="BoutonPDF"><button id="BtnImpression">Télécharger en PDF</button></div>
+		<div class="BoutonPDF"><button id="BtnOuvrir">Ouvrir en PDF</button></div>
+	</div>
+    <div class="bodyCV">
+		<div class="container">
+			<div class="info">
+				<div class="containerFlex">
+					<div class="containerCoordonnesGauche">
+						<h1>Niceto Adrien</h1>
+						<p>
+							<strong>Coordonnées :</strong>
+						</p>
+						<p>
+							<span class="iconify" data-icon="mdi:map-marker" data-inline="false"></span> Adresse : 57 Route de Lyon, 42400 Saint-Chamond<br />
+							<span class="iconify" data-icon="mdi:cellphone" data-inline="false"></span> Téléphone : 06 36 13 48 30<br />
+							<span class="iconify" data-icon="mdi:email" data-inline="false"></span> Email : adrienniceto42@gmail.com
+						  </p>
+					</div>
+					<div class="containerCoordonnesDroite">
+						<div class="profile-picture">
+							<img/>
+						</div>
+					</div>
+				</div>
+				<h2>Expérience Professionnelle</h2>
+				<p>
+					<strong>Développeur Web, Imaago, Saint-Étienne</strong> (Juin 2023 - Septembre 2024)
+				</p>
+				<ul>
+					<li>Développement d'une application web utilisant le framework Symfony, y compris l'organisation des tâches et la gestion du temps.</li>
+					<li>Gestion des tâches côté front-end (design, correction de bugs) et programmation côté back-end en utilisant divers langages web ainsi que la méthode agile.</li>
+				</ul>
+				<p>
+					<strong>Agent d'Exploitation, Qweeby SAS, Saint-Priest en Jarez</strong> (23 Mai - 8 Juillet 2022)
+				</p>
+				<ul>
+					<li>Gestion des données de facturation client dans un fichier XML, stockage des données dans une base de données et utilisation des expressions régulières.</li>
+				</ul>
+				<hr>
+				<h2>Formations</h2>
+				<p>
+					<strong>Master en Management de Projets Informatique, IRUP, Saint-Étienne</strong> (Dès Octobre 2024)</p>
+				<p>
+					<strong>Licence Informatique, CNAM, Saint-Étienne</strong> (Depuis Septembre 2023 jusqu'à aujourd'hui)</p>
+				<hr>
+				<h2>Compétences</h2>
+				<p>
+					<strong>Gestion de bases de données :</strong> MySQL Workbench, MySQL, Maria DB, SQL Server, SSMS</p>
+				<p>
+					<strong>Langages</strong> HTML, CSS, PHP, JavaScript (jQuery), JSON, YAML, XML, C#, C++, Wlangage, QLangage</p>
+				<p>
+					<strong>Gestion réseau et création de tables de routage</strong></p>
+				<p>
+					<strong>Windows Server (DNS, DHCP), Oracle, VirtualBox, Cisco</strong></p>
+				<p>
+					<strong>Gestion de projets :</strong> Gantt, MCD, MLD, SysML, Merise, Management de projets</p>
+				<p>
+					<strong>Connaissances de base en cybersécurité :</strong> cryptographie, algorithme RSA, SHA, MD5, ISO-27000, surveillance de la sécurité de l'information</p>
+				<p>
+					<strong>EDM, Windows Form, manipulation ASP.NET, Entity Framework</strong></p>
+				<p>
+					<strong>Git, GitHub, PhpMyAdmin, Adminer, gitKraken, gitLab, gestion des fichiers journaux</strong></p>
+				<p>
+					<strong>Langues parlées :</strong> Anglais (B1-B2), Italien (B2)
+				</p>
+				<hr>
+				<h2>Loisirs</h2>
+				<p>
+					<strong>Pop culture <span class="iconify" data-icon="mdi:popcorn" data-inline="false"></span>		Échecs <span class="iconify" data-icon="mdi:chess-knight" data-inline="false"></span>		Lecture <span class="iconify" data-icon="fa-solid:book-open" data-inline="false"></span> 		Écriture <span class="iconify" data-icon="mdi:pencil-outline" data-inline="false"></span> 	Jeux Vidéos <span class="iconify" data-icon="fa-solid:gamepad" data-inline="false"></span></strong>
+				</p>
+			</div>
+		</div>
+		
+        <!-- <embed src="cv.pdf" id="DivCV" /> -->
+    </div>
+
+	<footer>
+		<hr style="color:black">
+		<p id="copyright">Copyright © 2024 Sopirobo.com Tous droits réservés</p>
+	</footer>
+	</body>
+
+</html>
